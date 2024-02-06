@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>Perhitungan dengan javascript</title>
+<script type="text/javascript">
+    function tambah()
+    {
+    var a,b,c,d,e,total;
+    a=document.getElementById('angka1').value;
+    b=document.getElementById('angka2').value;
+    c=document.getElementById('angka3').value;
+    d=document.getElementById('angka4').value;
+    e=document.getElementById('angka5').value;
+    total=parseInt(a)+parseInt(b)+parseInt(c)+parseInt(d)+parseInt(e);
+    document.getElementById('hasil').value = total;  
+    }
+</script>
+</head>
+<body>
+    <center><h3><label>Program Perhitungan Javascript</h3></label>
+   <br>Input angka 1 <input type="text" name="angka1" id="angka1"/><br />
+   <br>Input angka 2 <input type="text" name="angka2" id="angka2"/><br />
+   <br>Input angka 3 <input type="text" name="angka3" id="angka3"/><br />
+   <br>Input angka 4 <input type="text" name="angka4" id="angka4"/><br />
+   <br>Input angka 5 <input type="text" name="angka5" id="angka5"/><br />
+   <p></p>
+    <br><input type="button" value="Proses" onclick="tambah()"/> <br/>
+    <h3>Hasilnya = </h3> <input type="text" id="hasil" />
+    <div id="hasil"></div>
+</body>
+</html>
+<?php
+
+?>
+
